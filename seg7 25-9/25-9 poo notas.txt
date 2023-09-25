@@ -1,0 +1,7 @@
+exemplo: classe aluno tera varios objetos alunos
+atributos guardam o estado da classe exemplos:aluno (nome,ra,curso).
+parâmetro de quantas linhas que um método deve possuir:8 linhas. (Alguns passam)
+
+
+memoria stack vai guarda a pilha de chamadas que ele receber
+stack para heap (livroDeNotas)
