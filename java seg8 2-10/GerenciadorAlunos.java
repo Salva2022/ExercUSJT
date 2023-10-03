@@ -1,6 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
@@ -34,6 +35,12 @@ public class GerenciadorAlunos extends JFrame {
                 senha.setText("");
             });
             JButton ok = new JButton("ok");
+            ok.addActionListener(acao -> {
+                if (login.getText().equals("root") && senha.getText().equals("51")){
+
+                }
+                else JOptionPane.showMessageDialog(null,"login ou senha incorretos");
+            });
             painel.add (ok);
             this.setFont(font);
             this.setVisible(true);

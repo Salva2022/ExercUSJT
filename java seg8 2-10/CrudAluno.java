@@ -11,9 +11,12 @@ public class CrudAluno {
         ca.desenhar();
     }
     private void desenhar(){
-        this.setSize(610,210);
+        this.setSize(940,240);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+        JPanel painel = new JPanel (new BorderLayout());
+        j
+         
     }
 
     public CrudAluno(){
